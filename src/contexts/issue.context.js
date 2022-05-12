@@ -28,6 +28,6 @@ const IssueProvider = ({ children }) => {
   );
 };
 IssueProvider.propTypes = {
-  children: PropTypes.children,
+  children: PropTypes.node,
 };
 export { IssueContext, IssueProvider };
